@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace GameDemo.Concrete
 {
     class GameManager : IGameService
-    {
+    { 
         public void Add(Game game)
         {
             Console.WriteLine("Game Added");
